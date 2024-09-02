@@ -1,0 +1,93 @@
+/* Estilo para a seção inteira com fundo */
+.chanceWrapper {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.chanceSection {
+  background-color: #1A0901;
+  padding: 40px 0;
+}
+
+.chanceContainer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 34px;
+  color: #E79925;
+}
+
+.subtitle {
+  font-size: 34px;
+  font-weight: normal;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.paragraphSmall {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.lastTitle {
+  margin: 2rem 0;
+  font-size: 24px;
+  color: #E79925;
+}
+
+@media (max-width: 800px) {
+  .chanceSection {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(26, 9, 1, 1) 50%);
+  }
+
+  .sectionTitle,
+  .subtitle {
+    font-size: 1.7rem;
+  }
+
+  .paragraphSmall {
+    font-size: 1rem;
+  }
+
+  .paragraph,
+  .lastTitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .image {
+    max-width: 80%;
+    display: flex;
+    max-height: 440px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px auto 30px auto;
+  }
+}
